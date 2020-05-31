@@ -1,0 +1,79 @@
+<?php include('form.php'); ?>
+
+<!doctype html>
+
+<html lang="en">
+    
+
+
+    <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Create User</title> 
+    <link href="../userData/form.php">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../CSS/signin.css" rel="stylesheet">
+    <link href="../CSS/blog.css" rel="stylesheet">
+    </head>
+
+    <body class="text-center">
+
+            <form class="form-signin" id="form-user" action="<?= $SERVER['PHP_SELF']; ?>" method="post">
+                <header>
+                    <h4>Create user</h4>
+                </header>
+
+            <?php echo $error; ?>
+
+
+            <div class="form-signin" data-errormsg="">
+                <label for="firstname" class="sr-only">First name</label>
+                <input type="text" id="firstname" placeholder="First name" class="form-control" name="firstname"required autofocus>
+                <span class = "error"><?= $lastname ?></span>
+            </div>
+
+            <div class="form-signin" data-errormsg="">
+                <label for="lastname" class="sr-only">Last name</label>
+                <input type="text" id="lastname" placeholder="Last name" class="form-control" name="lastname" required autofocus>
+                <span class = "error"><?= $error ?></span>
+            </div>
+
+            <div class="form-signin error">
+                <label for="Username" class="sr-only">Username</label>
+                <input type="text" id="Username" placeholder="Username" aria-describedby="inputGroupPrepend" class="form-control" name="Username" required autofocus>
+                <span class = "error"><?= $error?></span>
+            </div>
+
+            <div class="form-signin error" data-errormsg="">
+                <label for="password" class="sr-only">Password</label>
+                <input type="password" id="password" placeholder="Password" class="form-control" name="password" required autofocus>
+                <span class = "error"><?= $error ?></span>
+            </div>
+
+            <div class="form-signin error">
+                <label for="email" class="sr-only">Email</label>
+                <input type="text" id="email" placeholder="Email" class="form-control" name= "email" required autofocus>
+                <span class = "error"><?= $error ?></span>
+            </div>
+                
+            
+            <div>
+                <button class="btn btn-lg btn-primary btn-block" ID="button-send">Create user</button>
+                <button class="btn btn-lg btn-primary btn-block" ID="button-cancel">Reset form</button>
+            </div>
+        
+
+        </form>
+
+        <script src="../JS/forms.js"></script>
+
+    </body>
+
+</html>

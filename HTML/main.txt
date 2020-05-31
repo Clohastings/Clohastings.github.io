@@ -1,0 +1,21 @@
+
+Find a background for the website
+When you click header it takes you to home page
+
+
+<video width="320" height="240" controls>
+        <source src="../Images/IMG_2646.mov" type="video/mp4">
+
+
+create page:
+1. Make sure theyre signed in - pop up to sign in - otherwise create user
+1. Club Name (Top of Page)
+2. Club picture (upload an image) otherwise set image
+3. Private or public - checkbox
+4. invite members to join
+4. Ability to post on club page
+5. have icons in navbar
+6. change log in/log out
+7. put 
+
+
