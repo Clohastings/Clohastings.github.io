@@ -6,6 +6,8 @@ When you click header it takes you to home page
 <video width="320" height="240" controls>
         <source src="../Images/IMG_2646.mov" type="video/mp4">
 
+1. exted number of users
+
 
 create page:
 1. Make sure theyre signed in - pop up to sign in - otherwise create user
@@ -19,3 +21,17 @@ create page:
 7. put 
 
 
+ if( username === 'chloe'){
+        console.log('orrect!');
+    }else{
+        console.log('User does not exist. Please create an account.');
+    };
+
+
+ errors = validateUser(username, password);
+    console.log(errors)
+    if(errors.length === 0){
+        checkuser(username, password);
+    }else {
+      alert('Please enter all fields')
+    }  

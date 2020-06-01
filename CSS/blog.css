@@ -25,13 +25,18 @@
   max-height: 100%;
 }
 
+.teen-club-figure{
+  margin-left: 10%;
+  font-family: cursive ;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 .jumbotron{
   margin: 20px;
-  background-color: teal;
+  background-color: white;
 }
 
 .jumbotron .btn{

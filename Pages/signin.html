@@ -9,32 +9,34 @@
     <title>Signin Template · Bootstrap</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
-
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
+    <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
     <link href="../CSS/signin.css" rel="stylesheet">
     <link href="../CSS/blog.css" rel="stylesheet">
   </head>
 
   <body class="text-center">
-  <form class="form-signin">
-  <label for="inputUsername" class="sr-only">Username</label>
-  <input type="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
-  
-  <label for="inputPassword" class="sr-only">Password</label>
-  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-  
-  <div class="checkbox mb-3">
-    <label>
-      <input type="checkbox" value="remember-me"> Remember me
-    </label>
-  </div>
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-  <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
-  <a class ="sign-up" href="../Pages/create_user.html">Sign up</a>
-</form>
-  
-</body>
+    <form class="form-signin" >
+ 
+      <label for="inputUsername" class="sr-only">Username</label>
+      <input type="username" id="inputUsername" class="form-control" placeholder="Username" value ="" required autofocus>
+      
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" value ="" required>
+    
+      
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+
+      <button class="btn btn-lg btn-primary btn-block" ID="button-submit" type="reset">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
+      <a class ="sign-up" href="../Pages/create_user.html">Sign up</a>
+
+    </form>
+  </body>
+
+  <script src="../JS/sign-in.js"></script>
+
 </html>
