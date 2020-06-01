@@ -22,66 +22,69 @@
   <body>
     <div class="container">
       <header class="blog-header">
-        <div class="row flex-nowrap justify-content-between">
+        <div class="row flex-nowrap justify-content-between col-md-12">
             <img src="../Images/title graphic.png" class="blog-header-logo"><a href="./index.html"></a>
         </div>
       </header>
     </div>
 
-
-    <div class="nav-scroller bg-white shadow-sm ">
-         <nav class="nav nav-underline">
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02"></div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="nav-link" href="../Pages/signin.html">Log in</a> 
-          <a class="nav-link" href="#">Clubs</a> 
-           
-            <form class="form-inline my-lg-1">
-                <input class="form-control mr-sm-1" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-1 my-sm-0" type="submit">Search</button>
-            </form>
-
-      </nav>
-    </div>
- 
-    <div class="jumbotron rounded text-center">
-      <h1 class="display-4 ">Create a club for you and your mates here!</h1>
-      <button type="button" class="btn btn-primary btn-lg"><a href="../Pages/create_club.html">Create Club</a></button>
-    </div>
     
-    <div class="row">
+      <nav class="navbar sticky-top navbar-expand-md navbar-light bg-white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/signin.html">Log in</a>  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Clubs</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    
+ 
+    <div class="jumbotron rounded">
+    </div>
 
-      <div class="d-flex align-content-start flex-wrap">
-        <div class="col-md-6">
-          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 ">
-            <div class="col p-4 d-flex flex-column ">
-              <strong class="d-inline-block mb-2 text-primary">Latest</strong>
-              <h3 class="mb-0">TOP NEW CLUB THIS WEEK!</h3>
-              <div class="mb-1 text-muted">May 30th 2020</div>
-              <p class="card-text mb-auto">Sophie Peck from London has created the Harry Potter club which now has over 100 members!</p>
-              <a href="../Pages/Clubs/HarryPotterClub.html"> Join Harry Potter Club </a>
-            </div>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Latest</strong>
+            <h3 class="mb-0">TOP NEW CLUB THIS WEEK!</h3>
+            <div class="mb-1 text-muted">May 30th</div>
+            <p class="card-text mb-auto">Sophie Peck from London has created the Harry Potter club which now has over 100 members!</p>
+            <a href="../Pages/Clubs/HarryPotterClub.html" class = "stretched-link"> Join Harry Potter Club </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><rect width="100%" height="100%" fill="#55595c"/><image width="100%" height="100%" href="../Images/harrypotter.png"/></svg>
           </div>
         </div>
-  
-        <div class="col-md-6">
-          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 ">
-            <div class="col p-4 d-flex flex-column ">
-              <strong class="d-inline-block mb-2 text-success">Trending</strong>
-              <h3 class="mb-0">Will's Invention Club</h3>
-              <div class="mb-1 text-muted">May 30th 2020</div>
-              <p class="mb-auto">Check out how Will created a volcano in his backgarden!</p>
-              <a href="../Pages/Clubs/HarryPotterClub.html"> Join Will's Club </a>
-            </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Trending</strong>
+            <h3 class="mb-0">Will's Invention Club</h3>
+            <div class="mb-1 text-muted">June 1st</div>
+            <p class="mb-auto">Check out how Will created a volcano in his backgarden!</p>
+            <a href="../Pages/Clubs/HarryPotterClub.html"> Join Will's Club </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="white"/><image width="100%" height="100%" href="../Images/willvolcano.jpeg"/></svg>
           </div>
         </div>
       </div>
     </div>
   </body>
 
-  
 
   <main role="main" class="container">
     <div class="row">
@@ -136,7 +139,7 @@
   </main><!-- /.container -->
 
   <footer class="blog-footer">
-    <p>Website made for <a href="https://getbootstrap.com/">CodeFirstGirls</a> by <a href="https://twitter.com/mdo">Chloe</a>.</p>
+    <p>Website made for <a href="https://www.codefirstgirls.org.uk/">CodeFirstGirls</a> by <a href="https://twitter.com/mdo">Chloe</a>.</p>
     <p>
       <a href="#">Back to top</a>
     </p>
