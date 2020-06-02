@@ -44,11 +44,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
-.jumbotron .btn{
-  background-color: white;
-}
-
 .row{
   margin: 10px;
 }
@@ -89,6 +84,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: .75rem;
   font-size: .875rem;
 }
+
+
+
 
 .card-img-right {
   height: 100%;
